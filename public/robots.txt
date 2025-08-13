@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /.*
+
+# Sitemap location
+Sitemap: https://cycle-calculator-leo-precision.vercel.app/sitemap.xml
+
+# Crawl-delay for different bots
+Crawl-delay: 1
+
+# Allow Google specific crawling
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+# Allow Bing crawling
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /_next/ 
